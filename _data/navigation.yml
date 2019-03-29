@@ -1,4 +1,6 @@
 main:
+  - title: "Work"
+    url: /work/
   - title: "Photo"
     url: /photo/
   # - title: "Posts"
