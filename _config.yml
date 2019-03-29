@@ -1,6 +1,6 @@
 encoding: UTF-8
 locale: "en-US"
-title: Home
+title: Ryan
 description: A simple website for a human.
 
 plugins:
@@ -37,24 +37,29 @@ social:
     - "https://www.linkedin.com/in/noyhrynban"
     - "https://github.com/noyhrynban/"
 
+social_links: &social_links
+  - label: "Facebook"
+    icon: "fab fa-fw fa-facebook"
+    url: "https://facebook.com/noyhrynban"
+  - label: "Instagram"
+    icon: "fab fa-fw fa-instagram"
+    url: "https://instagram.com/noyhrynban"
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/noyhrynban"
+  - label: "LinkedIn"
+    icon: "fab fa-fw fa-linkedin"
+    url: "https://linkedin.com/in/noyhrynban"
+  - label: "Twitter"
+    icon: "fab fa-fw fa-twitter"
+    url: "https://twitter.com/noyhrynban"
+
 author:
-  name: "Ryan Harper"
+  name: Ryan Harper
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "Programmer and hobbyist photographer"
-  location: "Colorado, USA"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/noyhrynban"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/noyhrynban"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/noyhrynban"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/noyhrynban"
+  bio: One medium-sized nerd
+  location: Colorado, USA
+  links: *social_links
 
 include: ["_pages"]
 
@@ -79,16 +84,4 @@ defaults:
       related: false
 
 footer:
-  links:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://facebook.com/noyhrynban"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/noyhrynban"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/noyhrynban"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/noyhrynban"
+  links: *social_links
