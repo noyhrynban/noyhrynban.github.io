@@ -1,1 +1,94 @@
-theme: jekyll-theme-modernist
+encoding: UTF-8
+locale: "en-US"
+title: Home
+description: A simple website for a human.
+
+plugins:
+  - jekyll-include-cache
+remote_theme: "mmistakes/minimal-mistakes@4.15.2"
+minimal_mistakes_skin: dark
+
+repository: "noyhrynban/noyhrynban.github.io"
+url: "https://ryanharper.net"
+
+github: [metadata]
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-137252593-1"
+    anonymize_ip: false # default
+
+twitter:
+  username: "noyhrynban"
+
+facebook:
+  username: "noyhrynban" # https://www.facebook.com/noyhrynban
+
+# og_image: /assets/images/site-logo.png # minimum size of 120px by 120px, and less than 1MB
+
+social:
+  type: Person # Person or Organization (defaults to Person)
+  name: Ryan Harper # If the user or organization name differs from the site's name
+  links:
+    - "https://twitter.com/noyhrynban"
+    - "https://facebook.com/noyhrynban"
+    - "https://instagram.com/noyhrynban"
+    - "https://www.linkedin.com/in/noyhrynban"
+    - "https://github.com/noyhrynban/"
+
+author:
+  name: "Ryan Harper"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Programmer and hobbyist photographer"
+  location: "Colorado, USA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/noyhrynban"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/noyhrynban"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/noyhrynban"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/noyhrynban"
+
+include: ["_pages"]
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: false
+
+footer:
+  links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/noyhrynban"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/noyhrynban"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/noyhrynban"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/noyhrynban"
