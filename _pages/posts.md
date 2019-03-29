@@ -1,6 +1,7 @@
 ---
 permalink: /posts/
 author_profile: true
+published: false
 ---
 
 <ul>
