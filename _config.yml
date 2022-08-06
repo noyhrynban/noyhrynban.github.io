@@ -1,4 +1,4 @@
-remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
+theme             : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 encoding: UTF-8
@@ -51,7 +51,7 @@ author:
   name: Ryan Harper
   avatar: "/assets/images/bio-photo.webp"
   bio: One medium-sized nerd
-  location: Los Angeles, California
+  location: Tokyo, Japan
   links: *social_links
 
 # Reading Files
