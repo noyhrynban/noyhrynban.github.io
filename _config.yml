@@ -3,7 +3,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 encoding: UTF-8
 locale: "en-US"
-title: Ryan
+title: Home
 description: A simple website for a human.
 url: "https://ryanharper.net"
 repository: "noyhrynban/noyhrynban.github.io"
@@ -21,8 +21,6 @@ analytics:
     tracking_id: "UA-137252593-1"
     anonymize_ip: false # default
 
-twitter:
-  username: &twitter "noyhrynban"
 og_image: /assets/images/bio-photo.webp # minimum size of 120px by 120px, and less than 1MB
 social:
   type: Person # Person or Organization (defaults to Person)
@@ -31,21 +29,17 @@ social:
     - "https://instagram.com/noyhrynban"
     - "https://www.linkedin.com/in/noyhrynban"
     - "https://github.com/noyhrynban/"
-    - "https://twitter.com/noyhrynban"
 
 social_links: &social_links
-  - label: "Instagram"
-    icon: "fab fa-fw fa-instagram"
-    url: "https://instagram.com/noyhrynban"
   - label: "LinkedIn"
     icon: "fab fa-fw fa-linkedin"
     url: "https://linkedin.com/in/noyhrynban"
   - label: "GitHub"
     icon: "fab fa-fw fa-github"
     url: "https://github.com/noyhrynban"
-  - label: "Twitter"
-    icon: "fab fa-fw fa-twitter"
-    url: "https://twitter.com/noyhrynban"
+  - label: "Instagram"
+    icon: "fab fa-fw fa-instagram"
+    url: "https://instagram.com/noyhrynban"
 
 author:
   name: Ryan Harper
