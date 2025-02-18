@@ -6,6 +6,7 @@ header:
     caption: "Photo credit: **Scott Harper**"
 ---
 
-I bought my first DSLR camera in 2013 and it's been my main hobby since. I've been paid for some work but I mostly do it because I love it. Everyone should have a hobby that develops some skill.
+I bought my [first DSLR camera](https://en.wikipedia.org/wiki/Nikon_D3200){:target="_blank"} in 2013 and digital photography has been my main hobby ever since. I've been paid for some work but I mostly do it for the fun and the challenge. I think everyone should have a hobby that challenges them.
 
-The place to see some of my favorite shots is on [Instagram](https://instagram.com/noyhrynban).
+
+Some of my favorite shots get put on [Instagram](https://instagram.com/noyhrynban){:target="_blank"}.
