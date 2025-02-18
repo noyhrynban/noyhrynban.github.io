@@ -8,11 +8,9 @@
     <title>Ryan Harper - CV</title>
     <style>
         @media print {
-            .pagebreak {
-                page-break-before: always;
+            article section {
+                page-break-inside: avoid;
             }
-
-            /* page-break-after works, as well */
         }
 
         body {
@@ -233,7 +231,6 @@
                     <h5>Technologies Used</h5>
                     <p>Swift, SwiftUI, Metal Compute, GPGPU, Git</p>
                 </section>
-                <div class="pagebreak"> </div>
 
                 <!-- MSU Denver -->
                 <section>
@@ -309,7 +306,6 @@
                     <h5>Tools Used</h5>
                     <p>Visual Studio, CMake, GitLab, Docker, Ubuntu Linux Server</p>
                 </section>
-                <div class="pagebreak"> </div>
 
 
                 <!-- Backflip Studios Tools Engineer-->
@@ -392,7 +388,6 @@
                     <h5>Tools Used</h5>
                     <p>Atlassian Bamboo, PyCharm, Docker, Apache, Perforce</p>
                 </section>
-                <div class="pagebreak"> </div>
 
                 <!-- Backflip Studios QA -->
                 <section>
