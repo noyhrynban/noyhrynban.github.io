@@ -51,8 +51,6 @@ author:
 # Reading Files
 include: 
   - _pages
-exclude:
-  - .DS_Store
 
 defaults:
   # _pages
