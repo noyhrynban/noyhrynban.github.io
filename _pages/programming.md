@@ -3,8 +3,8 @@ permalink: /programming/
 title: Programming
 ---
 
-I work as a computer programmer.
+I both work as a computer programmer as well as dabbling in the occasional personal project.
 
-My [Github account](https://github.com/noyhrynban) has a few personal projects/gists.
+My [Github account](https://github.com/noyhrynban){:target="_blank"} has a few personal projects/gists.
 
-If you want to see my work history, here is my [CV](/cv.html).
+Here is a printable [CV](/cv.html){:target="_blank"}.
