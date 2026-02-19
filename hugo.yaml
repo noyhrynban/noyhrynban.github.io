@@ -7,11 +7,12 @@ theme: blowfish
 googleAnalytics: "UA-137252593-1"
 
 params:
-
   defaultBackgroundImage: "images/photo_header.webp"
+  colorScheme: "one-light"
+  defaultAppearance: "dark" 
 
   homepage:
-    layout: "background"
+    layout: "profile"
     showRecent: false
     layoutBackgroundBlur: true
     layoutBackgroundHeaderSpace: true
@@ -21,6 +22,10 @@ params:
     image: "images/bio-photo.webp"
     bio: "One medium-sized nerd"
     location: "Tokyo, Japan"
+    links:
+      - LinkedIn: "https://linkedin.com/in/noyhrynban"
+      - GitHub: "https://github.com/noyhrynban"
+      - Instagram: "https://instagram.com/noyhrynban"
 
   social:
     - name: "LinkedIn"
