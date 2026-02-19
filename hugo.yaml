@@ -1,0 +1,62 @@
+baseURL: https://ryanharper.net
+disablePathToLower: true
+languageCode: en-us
+title: Home
+
+theme: blowfish
+googleAnalytics: "UA-137252593-1"
+
+params:
+
+  defaultBackgroundImage: "images/photo_header.webp"
+
+  homepage:
+    layout: "background"
+    showRecent: false
+    layoutBackgroundBlur: true
+    layoutBackgroundHeaderSpace: true
+
+  Author:
+    name: "Ryan Harper"
+    image: "images/bio-photo.webp"
+    bio: "One medium-sized nerd"
+    location: "Tokyo, Japan"
+
+  social:
+    - name: "LinkedIn"
+      url: "https://linkedin.com/in/noyhrynban"
+    - name: "GitHub"
+      url: "https://github.com/noyhrynban"
+    - name: "Instagram"
+      url: "https://instagram.com/noyhrynban"
+
+  article:
+    showHero: true
+    heroStyle: "background"
+    layoutBackgroundBlur: true
+    layoutBackgroundHeaderSpace: true
+
+  list:
+    showHero: true
+    heroStyle: "background"
+    layoutBackgroundBlur: true
+    layoutBackgroundHeaderSpace: true
+
+menus:
+
+  main:
+    - identifier: programming
+      name: "Programming"
+      url: /programming/
+      weight: 10
+    - identifier: photo
+      name: "Photography"
+      url: /photo/
+      weight: 20
+    - identifier: posts
+      name: "Posts"
+      url: /posts/
+      weight: 30
+
+ignoreLogs:
+  - warning-goldmark-raw-html
